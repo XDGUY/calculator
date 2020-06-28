@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    Goto 1: Lbl 0:
+    <pre>Goto 1: Lbl 0:
 
 For A→X To B Step D:
 
@@ -27,5 +27,37 @@ Lbl 1:
 ClrMemory:?→A:?→B:?→C:C<sup>-1</sup>(B-A→D:Goto 0
 
 [How to use #001](https://github.com/spc-comp-soc/spc-cs-db/wiki/Calc-How-to-use-%23001)
+</pre>
+<details>
+    <summary><B>How to use<B></summary>
+        <pre>
+Examples 1. 
+
+Let f(x) = x<sup>3</sup>+2
+
+Using trapezoidal rule with 3 sub-intervals to find an approximate value of ∫<sup>2</sup><sub>0.5</sub> (x<sup>3</sup>+2)dx
+
+1. change /*Your function Here */ to x<sup>3</sup>+2
+
+2. run the prog
+
+3. enter the lower limit i.e. 0.5 , EXE
+
+4. enter the upper limit i.e. 2 , EXE
+
+5. enter the sub-intervals i.e. 3 , EXE
+
+6. Output is the height first, then output the approximate value     /* in this case, the height is 0.5 and the ans is 7.2188 (M1 4 d.p !!!)  */
+
+
+
+
+
+_DSE M1 tip: to get the step mark, you only have to write (1/2)[(b-a)/sub-intervals][f(a)+f()+...+fa(b)] and no need to draw a table with f(X)._
+
+_So height is outputted for you_😉
+
+        </pre>
+</details>
 </body>
 </html>
