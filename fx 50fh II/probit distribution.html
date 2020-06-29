@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--><style>
-        details > summary{
-            color:yellowgreen;
-            cursor: pointer;
-    </style><-->
     <style>
         details > summary{
             color: yellowgreen;
             cursor: pointer;
-        }    
+        }
+        .exeDiv{
+            font-weight:bold;
+            background-color: red;
+        }
+        .redboldDiv{
+            font-weight: bold;
+            color: red;
+        }
     </style>
 </head> 
 <body style="background-color: black; color: white;">
@@ -23,7 +26,7 @@
     </p>
     <p>
         A=1
-        <B style="color: red;"> =></B>
+        <B class="red"> =></B>
         Goto 1:
         A=2
         <B style="color: red;"> =></B>
@@ -65,7 +68,10 @@
             </ol>
             <pre>
 Examples:
-
+<dl>
+    <dt> X ~ Bin(9,0.5)，find P(X=4). Ans: 0.24609375 </dt>
+    <dd> 1 <B class="exeDiv">EXE</B> 0.5 <B class="exeDiv">EXE</B> 4 <B class="exeDiv">EXE</B> 4 <B class="exeDiv">EXE</B> 9 <B class="exeDiv">EXE</B></dd>
+</dl>
             </pre> 
     </details>
 </body>
