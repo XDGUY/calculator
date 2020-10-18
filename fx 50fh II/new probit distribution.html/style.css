@@ -1,0 +1,19 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    font-size: large;
+}
+
+#calCode{
+    padding: 0px;
+    margin: 0px;
+    height: 700px;
+    background-color: aqua;
+}
+
+#howToUse{
+    height: 600px;
+    background: linear-gradient(to right, yellow, purple);
+}
