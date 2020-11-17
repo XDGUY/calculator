@@ -1,71 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main" id="calCode">
-        <h1>Binomial, Poisson and Geometric Distribution 139 bytes or even shorter</h1>
-        <p>Lbl 0:?→A:M<B style="color: red;">M-</B>
-            ?→B:?→C:?→D:
-        </p>
-        <p>
-            A=1
-            <B class="red"> =></B>
-            Goto 1:
-            A=2
-            <B style="color: red;"> =></B>
-            Goto 2:
-            A=3
-            <B style="color: red;"> =></B>
-            Goto 3:
-        </p>
-        <br>
-        <p>
-            Lbl 1: ?→X:While C≤D:
-        </p>
-        <p>
-            X<B style="color: red;">C</B>C×B^(C)(1-B)^(X-C<B style="color: red;">M+</B>:
-        </p>
-        <p>
-            C+1→C:WhileEnd:M◢Goto 0:
-        </p>
-        <br>
-        <p>
-            Lbl 2:1-B:Ans^(C-1)-Ans^(D◢Goto 0:
-        </p>
-        <br>
-        <p>Lbl 3: While C≤D:</p>
-        <p>
-            B^(C)÷C!<B style="color: red;">e^(</B>B<B style="color: red;">M+</B>:
-        </p>
-        <p>C+1→C:WhileEnd:</p>
-        <p>M</p>
-        <hr>
-        <a href="#howToUse">Click here to see how to use.</a>
+      <h1>
+        Binomial, Poisson and Geometric Distribution 139 bytes or even shorter
+      </h1>
+      <p>
+        Lbl 0:?→A:M<b style="color: red">M-</b>
+        ?→B:?→C:?→D:
+      </p>
+      <p>
+        A=1
+        <b class="red"> =></b>
+        Goto 1: A=2
+        <b style="color: red"> =></b>
+        Goto 2: A=3
+        <b style="color: red"> =></b>
+        Goto 3:
+      </p>
+      <br />
+      <p>Lbl 1: ?→X:While C≤D:</p>
+      <p>
+        X<b style="color: red">C</b>C×B^(C)(1-B)^(X-C<b style="color: red">M+</b
+        >:
+      </p>
+      <p>C+1→C:WhileEnd:M◢Goto 0:</p>
+      <br />
+      <p>Lbl 2:1-B:Ans^(C-1)-Ans^(D◢Goto 0:</p>
+      <br />
+      <p>Lbl 3: While C≤D:</p>
+      <p>B^(C)÷C!<b style="color: red">e^(</b>B<b style="color: red">M+</b>:</p>
+      <p>C+1→C:WhileEnd:</p>
+      <p>M</p>
+      <hr />
+      <a href="#howToUse">Click here to see how to use.</a>
     </div>
 
     <div class="main" id="howToUse">
-        <h1>How to use</h1>
-        <ol>
-            <li> Choose the distribution to calculate: 1 = Binomial, 2 = Geometric, 3 = Poisson.</li>
-            <li>Enter the probability or λ(for Poisson distribution)</li>
-            <li>Enter the range (C≤X≤D)</li>
-            <li>enter the number of trails kif using Binomial distribution</li>
-            <li>answer is saved in M</li>
-        </ol>
-        <pre>
+      <h1>How to use</h1>
+      <ol>
+        <li>
+          Choose the distribution to calculate: 1 = Binomial, 2 = Geometric, 3 =
+          Poisson.
+        </li>
+        <li>Enter the probability or λ(for Poisson distribution)</li>
+        <li>Enter the range (C≤X≤D)</li>
+        <li>enter the number of trails kif using Binomial distribution</li>
+        <li>answer is saved in M</li>
+      </ol>
+      <pre>
 Examples:
 <dl>
 <dt> X ~ Bin(9,0.5)，find P(X=4). Ans: 0.24609375 </dt>
 <dd> 1 <B class="exeDiv">EXE</B> 0.5 <B class="exeDiv">EXE</B> 4 <B class="exeDiv">EXE</B> 4 <B class="exeDiv">EXE</B> 9 <B class="exeDiv">EXE</B></dd>
 </dl>
-        </pre> 
-        <a href="#calCode">Click here to go back to calCode</a>
+        </pre>
+      <a href="#calCode">Click here to go back to calCode</a>
     </div>
-</body>
+  </body>
 </html>
